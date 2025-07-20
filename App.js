@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import WelcomeScreen from "./pages/WelcomeScreen";
 import LoginScreen from "./pages/LoginScreen";
 import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,11 @@ const App = () => {
           name="Dashboard"
           component={Dashboard}
           options={{ title: "Dashboard" }}
+        />
+        <Stack.Screen
+          name="Profile"
+          component={Profile}
+          options={{ title: "Profile" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
