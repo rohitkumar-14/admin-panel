@@ -22,7 +22,7 @@ const tabs = [
   { id: 2, name: "Events", icon: Calendar },
   { id: 3, name: "Businesses", icon: Building },
   { id: 4, name: "Students", icon: Star },
-  { id: 5, name: "Image Gallery", icon: Images },
+  { id: 5, name: "Gallery", icon: Images },
 ];
 
 export default function Dashboard({ navigation }) {
